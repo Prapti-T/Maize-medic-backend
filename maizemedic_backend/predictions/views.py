@@ -32,7 +32,8 @@ def predict_disease(request):
             _, predicted = torch.max(outputs, 1)
 
         # Classify based on your model's classes
-        class_names = ['Common Rust', 'Gray Leaf Spot', 'Blight', 'Healthy']
+        class_names = ['Blight', 'Common_Rust', 'Gray_Leaf_Spot', 'Healthy']
+        # class_names = ['Common Rust', 'Gray Leaf Spot', 'Blight', 'Healthy']
         predicted_class = class_names[predicted.item()]
 
         # Clean up temporary image
