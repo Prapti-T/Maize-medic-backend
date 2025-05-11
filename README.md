@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ### 3. Run the Django API
 
 ```bash
-cd backend
+cd maizemedic_backend
 python manage.py runserver
 ```
 
