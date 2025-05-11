@@ -51,8 +51,7 @@ The dataset includes images of maize leaves labeled in four categories. It was p
 ```bash
 git clone https://github.com/yourusername/MaizeMedic.git
 cd MaizeMedic
-
----
+```
 
 ### 2. Set Up Virtual Environment
 
@@ -60,17 +59,13 @@ cd MaizeMedic
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
----
-
+```
 ### 3. Run the Django API
 
 ```bash
-
 cd backend
 python manage.py runserver
----
-
+```
 
 ### 4. Test the API
 
